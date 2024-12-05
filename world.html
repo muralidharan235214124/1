@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Countries</title>
+    <!-- Link to Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply a background image with a classic feel */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-image: url('BG.jpg'); /* Example background image */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            color: #fff;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Header styling */
+        h1 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 3em;
+            color: white;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Container for the country links */
+        .country-list {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .country-list p {
+            font-size: 1.2em;
+            color: #f0f0f0;
+            margin-bottom: 20px;
+        }
+
+        .country-list a {
+            display: inline-block;
+            margin: 15px;
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #007BFF;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        /* Hover effect for country links */
+        .country-list a:hover {
+            background-color: rgba(255, 255, 255, 0.4);
+            transform: scale(1.1);
+            text-decoration: underline;
+            color: #fff;
+        }
+
+        /* Responsive design adjustments */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+            .country-list a {
+                font-size: 1.2em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Explore Countries</h1>
+
+    <div class="country-list">
+        <p>Click on a country to learn more:</p>
+        <a href="India.html">India</a>
+        <a href="USA.html">USA</a>
+        <a href="Japan.html">Japan</a>
+        <a href="Brazil.html">Brazil</a>
+        <a href="France.html">France</a>
+        <a href="Canada.html">Canada</a>
+        <a href="Germany.html">Germany</a>
+    </div>
+
+</body>
+</html>
